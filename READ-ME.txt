@@ -1,0 +1,13 @@
+=>  Author Website   : Florinda Zeida
+
+=>  This website is a fictitious website for characters from Breaking Bad.
+
+Design & Development by Florinda Zeida.
+
+=>  About: The focus of this project was on the coding side and less on the design and it is the result of 5 weeks of Javascript.
+An important part was the contact form which is validated by a JavaScript function that uses regex to verify that the user's input meets the requirements of the non-empty fields and a valid email address. The function is called when the user clicks the submit button. If a validation problem has occurred, one or more error messages will be displayed. If all fields contain correct information, the user is taken to a successful message page.
+The API uses JSON and gets data from Breaking Bad Characters.
+On the home page I call the API URL, I loop through the results and I create the  HTML for each result and I display 2 different properties: Image and the name of the character. 
+I make a  link for each result to the details.html page and I pass the parameter in the query string to that page.
+I put Catch any errors to function to display a message on the page if an error occurs.
+Details.html I retrieve the id, name, and other parameters from the query string, I put it to the API URL in the format the API requires. I call the API using the URL I create and I display  3 different properties from the received JSON on this page.
